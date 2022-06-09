@@ -6,31 +6,95 @@
   </head>
   <body>
     <header class="site-header">
-      <nav class="site-navigation">
-        <a class="site-header-logo">ТЕХНОМАРТ</a>
-        <ul class="site-navigation">
-          <li><a href="search.html">Поиск</a></li>
-          <li><a href="main.html">Главная</a></li>
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="special-offers.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li><a href="bookmarks.html">Закладки</a></li>
-          <li><a href="basket.html">Корзина</a></li>
-          <li><a href="place-an-order.html">Оформить заказ</a></li>
-          <li><a href="phone.html">+7(812)555-05-55</a></li>
-          <li class="login-link"></li>
-          <li class="registration-link"></li>
+      <div class="site-header__top">
+        <a href="#" class="site-header__logo-link">ТЕХНОМАРТ</a>
+        <a href="#" class="site-header__search">Поиск:</a>
+        <a href="#" class="site-header__bookmarks">Закладки: 0</a>
+        <a href="#" class="side-header__cart">Корзина: 0</a>
+        <a href="#" class="site-header__order">Оформить заказ</a>
+      </div>
+      <div class="site-header__middle">
+        <h1 class="site-header__slogan">
+          Интернет-магазин строительных материалов и инструментов для ремонта
+        </h1>
+        <adress class="adress site-header__adress">
+          <p>+7(812)555-05-55</p>
+          <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+        </adress>
+        <div class="site-header__user-nav">
+          <a class="site-header__login-link">Войти</a>
+          <a class="site-header__registration-link">Регистрация</a>
+        </div>
+      <nav class="site-header__bottom">
+        <ul class="site-nav site-header__site-nav">
+          <li class="site-nav__item">
+            <a href="search.html" class="site-nav__link">Поиск</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="main.html" class="site-nav__link">Главная</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="company.html" class="site-nav__link">Компания</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="catalog.html" class="site-nav__link">Каталог</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="news.html" class="site-nav__link">Новости</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="special-offers.html" class="site-nav__link">Спецпредложения</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="delivery.html" class="site-nav__link">Доставка</a>
+          </li>
+          <li class="site-nav__item">
+            <a href="contacts.html" class="site-nav__link">Контакты</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+    <main class="site-main">
+      <section class="features">
+        <h2 class="visually-hidden">Наше преимущества</h2>
+        <div class="features__item">
+          <a class="features__link">
+            <b class="features__title">Материалы</b>
+            <span class="features__subtitle">На любой вкус</span>
+          </a>
+        </div>
+        <div class="features__item">
+          <a class="features__link">
+            <b class="features__title">Инструмент</b>
+            <span class="features__subtitle">На все случаи</span>
+          </a>
+        </div>
+        <div class="features__item">
+          <a class="features__link">
+            <b class="features__title">Техника</b>
+            <span class="features__subtitle">Для стройки</span>
+          </a>
+        </div>
+        <div class="features__item">
+          <a class="features__link">
+            <b class="features__title">Скидки 50%</b>
+            <span class="features__subtitle">На 350 товаров</span>
+          </a>
+        </div>
+        <div class="features__item">
+          <a class="features__link">
+            <b class="features__title">Доставка</b>
+            <span class="features__subtitle">Бесплатно</span>
+          </a>
+        </div>
+        <div class="features__special-item">
+          <p class="features__special-info">
+            <b class="features__special-title">Дрели</b>
+            <span class="features__special-subtitle">Соседям на радость</span>
+          </p>
+          <a class="features__special-link">Открыть каталлог</a>
+        </div>
+      </section>
     </main>
   </body>
 </html>
